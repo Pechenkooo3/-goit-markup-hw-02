@@ -60,12 +60,12 @@ body {
 .nav-item:hover,
 .tel:hover,
 .mail-link:hover,
-.tel-link:hover {
+.tel:hover {
   color: var(--accent-txt-cl);
 }
 .nav-item:focus,
 .mail-link:focus,
-.tel-link:focus {
+.tel:focus {
   color: var(--accent-txt-cl);
 }
 .tel,
