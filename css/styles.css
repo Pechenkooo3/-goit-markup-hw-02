@@ -91,11 +91,10 @@ body {
   background-color: var(--light-bg-cl);
 }
 .btn {
-  font-family: var(--main-font);
+  font-family: inherit;
   background-color: var(--accent-txt-cl);
   color: white;
   font-weight: 700;
-  font-size: 16px;
   line-height: calc(30 / 16);
   cursor: pointer;
 }
@@ -115,7 +114,6 @@ body {
   text-transform: uppercase;
 }
 .lists-items {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -140,14 +138,11 @@ body {
 /* main-secnion 3 */
 .teams-name {
   font-weight: 500;
-  font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-prof {
-  font-weight: 400;
-  font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
@@ -177,7 +172,6 @@ body {
 }
 .addres {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -190,7 +184,6 @@ body {
 }
 .footer-item {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -199,26 +192,28 @@ body {
 
 /* Portfolio buttons */
 
-/* .btn-lists:focus {
-  color: #f5f4fa;
+/* main */
+.main-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 16);
+}
+.main-titles .title {
+  line-height: calc(30 / 16);
+  color: var(--sec-txt-cl);
 }
 
-.btn-lists:hover {
-  color: #f5f4fa;
-} */
 .btn-item {
   color: white;
   background-color: var(--accent-txt-cl);
   font-weight: 500;
-  font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
   cursor: pointer;
 }
 .btn-item-list {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
   cursor: pointer;
